@@ -3,9 +3,9 @@ variable "length" {
   default = "5"
 }
 
-# variable "length2" {
-#   type = string
-# }
+variable "length2" {
+  type = string
+}
 
  resource "random_pet" "name44" {
   length    = var.length
