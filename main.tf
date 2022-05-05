@@ -1,6 +1,6 @@
 variable "length" {
   type = string
-  default = "5"
+#   default = "5"
 }
 
 variable "length2" {
