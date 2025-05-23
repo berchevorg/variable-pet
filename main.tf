@@ -1,9 +1,9 @@
 variable "length" {
   type = string
-#   default = "5"
+   default = "5"
 }
 
  resource "random_pet" "name44" {
-  length    = var.lengthh
+  length    = var.length
   separator = "-"
  }
