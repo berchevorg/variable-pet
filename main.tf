@@ -1,6 +1,6 @@
 variable "length" {
   type = string
-   default = "5"
+   default = "6"
 }
 
  resource "random_pet" "name44" {
