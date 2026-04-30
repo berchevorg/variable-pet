@@ -1,10 +1,10 @@
 variable "length" {
-  type = string
+  type = number
    #default = "11"
 }
 
 #variable "length2" {
-#  type = string
+#  type = number
 #}
 
  resource "random_pet" "name44" {
